@@ -1,0 +1,103 @@
+body { padding-top: 50px; }
+
+.block{
+  background-color: transparent;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color:#000099;
+  padding: 10px;
+  width:50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:100px;
+  margin-bottom: 15px;
+}
+
+#nameTag {
+  color: #000099;
+;
+  font-family:default;
+}
+
+.divider {
+  border: 1px outset rgba(255,255,255,0.2);
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.banner {
+  height: 855px;
+}
+
+.vertical-center {
+  padding-top: 0px;
+}
+
+.btn-default{
+  background-color:transparent;
+  border-color: #000099;
+  color: #3366cc;
+  font-size: 1.2em;
+}
+
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #673AB7;
+}
+
+.social-list {
+  float: right;
+  margin-top: 0px;
+}
+
+ul.social-list > li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#portfolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.switcher {
+  background-color:#5cabe8;
+}
+
+hr {
+  border-color: #afafaf;
+  width: 80%;
+}
+
+.jumbotron {
+  background:url("https://images.unsplash.com/photo-1418985991508-e47386d96a71?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=cfplr9zgnak-alberto-restifo.jpg&s=db8e86bb4648f86f7c5a0dd5bf98dc69"); 
+background-size:cover;
+height:1000px;
+}
+.thin-blue-border {
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    height: 45px;
+    margin-top:-10px;
+  }
+
+.thumbnail {
+  text-align: center;
+}
+
+.thumbnail img{
+  height:250px;
+}
